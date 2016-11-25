@@ -118,6 +118,7 @@ h4{
     text-align: left;
     background: #1f122c;
     width: 520px;
+    margin-bottom: 30px;
 }
 
 .imagen{
@@ -172,7 +173,7 @@ h4{
     width: 20px;
 }
 
-/*------footer{
+footer{
     background:#0f0817; 
 }
 footer p{
@@ -180,7 +181,11 @@ footer p{
     font-family: sans-serif;
     text-align: center;
     padding: 20px 0;
-}-------*/
+}
+footer{
+ clear: both;
+}
+
 /* Responsive */
 
 @media screen and (max-width : 920px) {
