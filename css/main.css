@@ -1,0 +1,131 @@
+*{
+    outline: 1px solid #f8ace4;
+}
+/* -----------BODY------------- */
+body{
+    font-family: Courgette;
+    padding: 0;
+    margin: 0;
+    background: #2c2a3c;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+/* -----------HEADER------------- */
+.logo{
+    width: 35%;
+}
+.list-menu{
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list-menu li{
+    display: inline-block;
+    padding-left: 20px;
+}
+.list-menu li a{
+    display: block;
+    padding: 15px 0px;
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    background: #1f122c;
+}
+/* -----------HERO------------- */
+.clearfix{
+    background-image: url(../image/header-image.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    
+}
+.spring{
+    color: #ffe4a8;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.box{
+    width: 550px;
+    margin: auto;
+    padding: 20px;
+    background: #1f122c;
+}
+.spring h1{
+    font-size: 70px;
+    margin:18px 0;
+}
+p{
+    color: #fff;
+    font-size: 12px;
+    padding: 3px;
+}
+
+/* -----------SECTION------------ */
+
+.imagen1{
+    background-image: url(../image/image7.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+.imagen2{
+    background-image: url(../image/image3.jpg);
+    width: 100%;
+    height: 200px;
+     background-size: cover;
+}
+.imagen3{
+    background-image: url(../image/image2.jpg);
+    width: 100%;
+    height: 200px;
+     background-size: cover;
+}
+
+.fragance{
+    text-align: center;
+    background: #1f122c;
+    width: 285px;
+}
+h4{
+    color: #ffe4a8;
+    margin: 9px;
+}
+.col-1, .col-2, .col-3 {
+    width: 285px;
+    height: 262px;
+    display: inline-block;
+    margin-right: 11px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* -----------ASIDE------------ */
+.info{
+    text-align: left;
+    background: #1f122c;
+    width: 520px;
+}
+
+.imagen{
+    background-image: url(../image/image4.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
