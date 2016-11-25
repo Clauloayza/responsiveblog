@@ -37,6 +37,11 @@ body{
 header{
     background: #1f122c;
 }
+ header .icon-menu {
+    background: none;
+    font-size: 30px;
+    display: none;
+}
 /* -----------HERO------------- */
 .clearfix{
     background-image: url(../image/header-image.jpg);
@@ -179,13 +184,14 @@ footer p{
 /* Responsive */
 
 @media screen and (max-width : 920px) {
-       
+     
 }
 
 @media screen and (max-width: 700px) {
     .list-menu {
         display: none;
     }
+    
     .container {
         width: 95%;
     }
@@ -204,8 +210,16 @@ footer p{
         width: 100%;
         padding: 0;
     }
-    .right {
-        display: none;
+    .col-1, .col-2, .col-3{
+        width: 100%;
+        margin: auto;
     }
-   
+    .fragance{
+        width: 100%;
+        margin: auto;
+    }
+    .amanda{
+        background-position: center;
+    }
+    
 }
